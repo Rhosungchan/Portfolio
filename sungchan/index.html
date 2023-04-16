@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO Developer Sungchan</title>
+    <link rel="stylesheet" href="/sungchan/Sungchan.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- 왼쪽 사이드 영역 -->
+        <section id="left"></section>
+        <section id="leftSide">
+            <!-- 첫번째 박스 -->
+            <div class="firstBox">
+                <div id="area"></div>
+                <div id="profile">
+                    <img src="/sungchan/profile.png" alt="" id="profileImage">
+                </div>
+            </div>
+
+            <!-- 자기소개 제목 -->
+            <div class="introudceBox" id="box"> 
+                <span class="menu">자기소개</span> <br>
+                <span class="subMenu">Introudce</span>
+            </div>
+
+            <!-- 기술 사항 제목 -->
+            <div class="stackBox" id="box">
+                <span class="menu">기술사항</span> <br>
+                <span class="subMenu">Stack</span>
+            </div>
+
+            <!-- 사회경험 제목 -->
+            <div class="experienceBox" id="box">
+                <span class="menu">사회경험</span><br>
+                <span class="subMenu">Experience</span>
+            </div>
+
+            <!-- 학력사항 제목 -->
+            <div class="educationBox" id="box" height="100px">
+                <span class="menu">학력</span><br>
+                <span class="subMenu">Education</span>
+            </div>
+
+            <!-- 교육 제목 -->
+            <div class="studyBox" id="box">
+                <span class="menu">교육 </span><br> 
+                <span class="subMenu">Study</span>
+            </div>
+
+            <!-- Contact 제목 -->
+            <div class="contactBox">
+                <span class="menu">Contact</span>
+            </div>
+        </section>
+
+        <!-- 오른쪽 영역 -->
+        <section id="right"></section>
+        <section id="rightSide">
+            <!-- 첫번째 박스 -->
+            <div class="firstBox" id="titleBox">
+                <div id="logoImageArea">
+                    <table>
+                        <tr>
+                            <th width="150px"><a href="http://www.eco.co.kr/"><img src="/sungchan/ECO로고(배경제거).png" alt="" id="logoImage"></a></th>
+                            <td width="100px" id="time">접속시간 : </td>
+                            <td width="400px" id="enterTime"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h3 id="info">도전과 성장을 멈추지 않는</h3>
+                    <h1 id="name">노 성 찬 입니다.</h1>
+                </div>
+            </div>
+
+            <!-- 자기소개 내용 -->
+            <div class="introudceBox" id="box">
+                <h4>Java 기반의 Full-Stack Web Developer 노성찬입니다.</h4>
+                <h4>의사소통 및 협업 능력을 강점으로 도전하고 성취하는 것에 자신있습니다.</h4>
+                <span id="infoDevelor">  
+                    - 클라이언트로 홈페이지 구축 업무 지원 경험  <button class="modal-btn">[Click]</button><br>
+                    - 기업(이마트, 대상, 일렉트로룩스 등), 공무원(서울시), 개인 등 다양한 협업 경험 <button class="modal-btn">[Click]</button><br>
+                    - WEB Full-Stack Developer 교육 이수 (팀프로젝트 2회 / 개인 프로젝트) <button class="modal-btn">[Click]</button><br>
+                    - 지속적인 Strudy (프로그래머스, 스터디 모임,원티드 프론트엔드 챌린지) <button class="modal-btn">[Click]</button><br><br>
+                </span>
+                <h4>협업 능력은 개인의 실력에서 나온다는 생각으로 최상의 결과물을 성취하겠습니다.</h4>
+            </div>
+
+            <!-- 기술사항 내용 -->
+            <div class="stackBox" id="box">
+                <table id="stack">
+                    <tr>
+                        <th height="70px" width="100px" class="stack">
+                            Stack
+                        </th>
+                        <td width="100px">Java<br><br>HTML</td>
+                        <td width="100px">Oracle<br><br>CSS</td>
+                        <td width="100px">MyBatis<br><br>JavaScript</td>
+                        <td width="100px">JQuery<br><br>Ajax</td>
+                        <td width="110px">SpringFramework<br><br>JSP</td>
+                    </tr>
+                    <tr><th height="15px"></th></tr>
+                    <tr>
+                        <th height="70px" class="stack">Tool</th>
+                        <td>Github<br><br>ZET</td>
+                        <td>ERD<br><br>Netlify</td>
+                        <td>Figma<br><br>ZOOM</td>
+                        <td>Trello<br><br>Notion</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- 사회경험 내용 -->
+            <div class="experienceBox" id="box">
+                <table>
+                    <tr>
+                        <th width="350px" height="70px" class="experience">
+                            <span>굿앤리테일</span><br>
+                            <span id="explanation">브랜드마케팅(인턴)</span>                       
+                        </th>
+                        <td width="300px">
+                            -----------------------------------------
+                        </td>
+                        <td width="100px" class="period">
+                            2022.01<br>2022.04
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="experience">
+                            <span>서울특별시사회복지협의회</span><br>
+                            <span id="explanation">사회공헌활동 기획 및 진행</span>
+                        </th>
+                        <td>-----------------------------------------</td>
+                        <td class="period">
+                            2020.06<br>2021.12
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- 학력 내용 -->
+            <div class="educationBox" id="box">
+                <table>
+                    <tr>
+                        <th width="250px" height="70px" class="experience">
+                            <span>성결대학교(4년제)</span><br>
+                            <span id="explanation">기독교교육학/사회복지학</span>
+                        </th>
+                        <td width="350px">
+                            ----------------------------------------------------
+                        </td>
+                        <td width="100px" class="period">
+                            2012.03<br>2018.02
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- 교육 내용 -->
+            <div class="studyBox" id="box">
+                <table>
+                    <tr>
+                        <th width="350px" class="experience">
+                            <span>KH정보교육원(종로)</span><br>
+                            <span id="explanation">Full-Stack WEB Developer과정</span>
+                        </th>
+                        <td width="300px">----------------------------------------</td>
+                        <td width="100px" class="period">
+                            2020.06<br>
+                            2021.12
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <span id="studyContent">
+                    - Java기초, OOP Programming, SQL Programming 등 <br>
+                    - BE : Java, Oracle, SpringFramework, JSP, Servlet, JDBC, MyBatis, Tomcat, JSON, API<br>
+                    - FE : JavaScript, HTML, CSS, Ajax, JQuery<br>
+                    - JDBC를 활용한 개인프로젝트 1회/ 팀프로젝트 2회<br><br>
+                </span>
+                <table>
+                    <tr>
+                        <th width="150px" height="50px">
+                            <div class="project">
+                                <a href="https://parallel-monitor-7a6.notion.site/be15de3d71744601aed4dc8afc32b806?v=d252ab0c485146e7ac84d35756ac02fb">Daliy Study</a>
+                            </div>
+                        </th>
+                        <td width="230px">Web-FullStack 개발자 공부</td>
+                        <td>Java / SQL / JavaScript / HTML&CSS 등</td>
+                    </tr>
+                    <tr>
+                        <th width="150px" height="50px">
+                            <div class="project">
+                                <a href="https://parallel-monitor-7a6.notion.site/62d6f69cab5f4049a3337a8a3b9ffb26">Semi-Project</a>
+                            </div>
+                        </th>
+                        <td width="230px">호텔 예약 사이트 클론 코딩</td>
+                        <td>미팅룸 예약 및 관리 / 비밀번호 변경 / 내 정보 조회 및 변경 / 회원 탈퇴</td>
+                    </tr>
+                    <tr>
+                        <th height="50px">
+                            <div class="project">
+                                <a href="https://parallel-monitor-7a6.notion.site/1de479fdfab947879e808b3f42356113">Final-Project</a>
+                            </div>
+                        </th>
+                        <td>Fmanager 웹사이트 제작<br>(크몽 벤치마킹)</td>
+                        <td>고객센터 / 이용문의 관리자 페이지 / <br>프로젝트 등록 및 관리 / 결제</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Contact 내용 -->
+            <div class="contactBox" id="box">
+                <div class="contactContent">
+                    <img src="/sungchan/notion.png" alt=""><br>
+                    <a href="https://parallel-monitor-7a6.notion.site/82750b3d9c55443fa34129c8cdb2c8cd">Notion</a>
+                </div>
+                <div class="contactContent">
+                    <img src="/sungchan/github.png" alt=""><br>
+                    <a href="https://github.com/Rhosungchan">Github</a>
+                </div>
+                <div class="contactContent">
+                    <img src="/sungchan/email.png" alt="">
+                    <span>skclsso52@naver.com</span>
+                </div>
+                <div class="contactContent">
+                    <img src="/sungchan/tell.png" alt=""><br>
+                    <span>010-7130-5756</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="modal-container">
+            <!-- 첫번째 모달 -->
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <section class="modal-head">
+                        <div id="modal-head-address">
+                            <img src="/sungchan/돋보기.png" alt="">  |
+                            <span>http:// www.클라이언트로써 홈페이지 구축 업무 지원.com</span> 
+                        </div>
+                    </section>
+                    <section class="modal-body">
+                        <div id="popUp-1">
+                            <div id="head">
+                                <span>PhotoGalay</span>
+                                <span>&times;</span>
+                            </div>
+                        </div>
+                        <div id="homePageContent">
+                            <h2>[ 회사 웹사이트 제작 업무 지원 ]</h2>
+                            <span>
+                                서울시와 함께 TF팀을 이루어 [서울 잇다 푸드뱅크]라는 새로운 브랜드를 만들게 된다.
+                                TF팀에 소속하여 정책 및 발전방향 계획 수립하고 브랜드네임, 브랜드로고는 공모전을 통해 선정하여
+                                홈페이지를 제작하게 된다.
+                            </span><br><br>
+                            <h3>[ 느낀점 ]</h3>
+                            <span>
+                                1. 클라이언트로 웹 개발 참여하여 사용자 관점 및 요구사항을 이해<br>
+                                2. 홈페이지 제작 및 관리를 통해 제작 업체와 클라이언트 원활한 <br>
+                                &nbsp;&nbsp;&nbsp;의사소통의 중요성을 인지<br>
+                                3. 프로젝트 진행 기간의 중요성 인지<br>
+                                4. 고객의 요구사항 정의서를 상호 협의하는 것의 중요성
+                            </span>
+                        </div>
+                    </section>
+                    <section class="modal-footer">
+                        <img src="/sungchan/window.png" alt="">
+                        <img src="/sungchan/돋보기2.png" alt="">
+                        <img src="/sungchan/크롬아이콘.png" alt="">
+                        <img src="/sungchan/vsCode.png" alt="">
+                        <img src="/sungchan/카카오톡.png" alt="">
+                    </section>
+                </div>
+            </div>
+        
+            <!-- 두번째 모달 -->
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <section class="modal-head">
+                        <div id="modal-head-address">
+                            <img src="/sungchan/돋보기.png" alt="">  |
+                            <span>http:// www.기업(이마트,대상,일렉트로룩스 등), 공무원(서울시), 개인 등 다양한 협업 경험.com</span> 
+                        </div>
+                    </section>
+                    <section class="modal-body">
+                        <div id="popUp">
+                            <div id="head">
+                                <span>PhotoGalay</span>
+                                <span>&times;</span>
+                            </div>
+                            <div class="image-grid">
+                                <div>
+                                    <img src="/sungchan/홍보서포터즈.png" class="picture">
+                                    <h3 class="imageinfo">1년간 76명의 서포터즈 담당</h3>
+                                </div>
+                                <div>
+                                    <img src="/sungchan/굿피플.jpg" class="picture">
+                                    <h3 class="imageinfo">서울시, 굿피플과 함께했던 굿피플 행사</h3>
+                                </div>
+                                <div>
+                                    <img src="/sungchan/대상.jpg" class="picture">
+                                    <h3 class="imageinfo">대상의 시민봉사단 및 임직원들과 함께한 나눔 행사</h3>
+                                </div>
+                                <div>
+                                    <img src="/sungchan/일렉트로룩스.jpg" class="picture">
+                                    <h3 class="imageinfo">일렉트로룩스와 중구청과 함께한 행사</h3>
+                                </div>
+                                <div>
+                                    <img src="/sungchan/보건복지부 차관 점검.jpg" class="picture">
+                                    <h3 class="imageinfo">관리 중인 사업장에서 보건복지부 차관 간담회 진행</h3>
+                                </div>
+                                <div>
+                                    <img src="/sungchan/가수 션과 함께하는 기부.jpg" class="picture">
+                                    <h3 class="imageinfo">홍보대사 션, 농심과 함께한 행사</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="eventContent">
+                            <h2>[ 다양한 협업 경험 ]</h2>
+                            <span>
+                                - 서울시 25개 자치구, 기업(대상, 일렉트로룩스, 이마트, <br>
+                                &nbsp;&nbsp;&nbsp;비씨카드 등), 개인과다양한 사회공헌활동 기획 및 진행 <br>
+                                - 서울시 25개 자치구 약 30개 사업장 관리 <br>
+                                - 1년 약 500억이상의 기부금 달성(회사 기준)<br>
+                                - 스타트업에서의 인턴을 통한 스타트업, 중소기업 협업 경험<br>
+                                - 76명의 홍보서포터즈를 직접 선발 및 운영 <br>
+                            </span><br>
+                            <h3>[ 느낀점 ]</h3>
+                            <span>
+                                1. 외부 업체와 협업을 진행하는 것은 회사를 대표하는 것이<br>
+                                &nbsp;&nbsp;&nbsp;기에 책임감, 신뢰성, 책임감, 실력 등 모든 것이 중요<br>
+                                2. 원활한 의사소통과 협업을 위한 개인 실력의 중요성을 인지<br>
+                                3. 기업, 공공기관, 대학생, 중소기업 등 다양한 업무프로세스,  
+                                &nbsp;&nbsp;&nbsp;성향, 구조를 알 수 있었음<br>
+                                4. 다양한 직급과 사람을 경험할 수 있었음
+                            </span>
+                        </div>
+                    </section>
+                    <section class="modal-footer">
+                        <img src="/sungchan/window.png" alt="">
+                        <img src="/sungchan/돋보기2.png" alt="">
+                        <img src="/sungchan/크롬아이콘.png" alt="">
+                        <img src="/sungchan/vsCode.png" alt="">
+                        <img src="/sungchan/카카오톡.png" alt="">
+                    </section>
+                </div>
+            </div>
+        
+            <!-- 세번째 모달 -->
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <section class="modal-head">
+                        <div id="modal-head-address">
+                            <img src="/sungchan/돋보기.png" alt="">  |
+                            <span>http:// www.WEB Full-Stack Developer 교육 이수 (팀프로젝트 2회 / 개인 프로젝트).com</span> 
+                        </div>
+                    </section>
+                    <section class="modal-body">
+                        <div id="popUp-2">
+                            <div id="head">
+                                <span>Portfolio</span>
+                                <span>&times;</span>
+                            </div>
+                            <div id="project">
+                                <div class="projectImage">
+                                    <img src="/sungchan/세미프로젝트.png" alt="">
+                                    <h3>PROJECT 1</h3>
+                                    <table class="projectTable">
+                                        <tr>
+                                            <th width="120px" height="50px" class="th">한 줄 소개</th>
+                                            <td width="350px" class="td">
+                                                호텔 사이트 (HiddenCliff) 클론 코딩<br>
+                                                객실 예약, 회원관리, 공지사항 등을 구현
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">내 구현 기능</th>
+                                            <td class="td">
+                                                Meeting Room 예약, 예약 관리, 회원 탈퇴<br>
+                                                내 정보 조회 및 변경, 비밀번호 변경
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">기간</th>
+                                            <td class="td">2022년 10월 13일 - 2022년 12월 8일</td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">팀 구성</th>
+                                            <td class="td">Full-Stack 4명</td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">관련 링크</th>
+                                            <td class="td">
+                                                <a href="https://github.com/kh-semi-book/semi-book">Github</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                                <a href="https://parallel-monitor-7a6.notion.site/62d6f69cab5f4049a3337a8a3b9ffb26">Notion</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                                <a href="https://www.hiddencliff.kr/main/main.html">Hotel HiddenCliff</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="projectImage">
+                                    <img src="/sungchan/파이널 프로젝트.png" alt="">
+                                    <h3>PROJECT 2</h3>
+                                    <table class="projectTable">
+                                        <tr>
+                                            <th width="120px" height="50px" class="th">한 줄 소개</th>
+                                            <td width="350px" class="td">
+                                                프리랜서를 매칭해주는 웹 사이트 <br>
+                                                (크몽 벤치마킹)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">내 구현 기능</th>
+                                            <td class="td">
+                                                고객센터, 관리자 페이지(이용문의, 프로젝트 관리)<br>
+                                                내 프로젝트 등록 및 채택, 결제
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">기간</th>
+                                            <td class="td">2022년 12월 13일 - 2022년 1월 6일</td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">팀 구성</th>
+                                            <td class="td">Full-Stack 5명</td>
+                                        </tr>
+                                        <tr>
+                                            <th height="50px" class="th">관련 링크</th>
+                                            <td class="td">
+                                                <a href="https://github.com/KH-N1K4/FManagerProject">Github</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                                <a href="https://parallel-monitor-7a6.notion.site/1de479fdfab947879e808b3f42356113">Notion</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                                <a href="https://kmong.com/">Kmong</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="educationContent">
+                            <h2>[WEB Full-Stack 개발자 교육]</h2>
+                            <span> 
+                                - Java기초, OOP Programming, <br>  &nbsp;&nbsp;&nbsp;SQL Programming 등<br>
+                                - BE : Java, Oracle, SpringFramework, JSP,
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servlet, MyBatis, Tomcat, JSON, API<br>
+                                - FE : JavaScript, HTML, CSS, Ajax, JQuery<br>
+                                - 개인프로젝트 1회/ 팀프로젝트 2회<br>
+                            </span><br>
+                            <h3>[ 느낀점 ]</h3>
+                            <span>
+                                1. 웹개발자 기초 지식을 배우고 활용함<br>
+                                2. 프로그래밍 사고 구조와 논리적 구조 습득함<br>
+                                3. 포기하지 않는다면 성취할 수 있다는 자신감<br>
+                                4. 팀프로젝트를 통한 지식 활용 및 협업 능력 강화<br>
+                                5. 6개월 간의 9 to 6 수업 진행, 개인 자습을 통한 <br>
+                                &nbsp;&nbsp;&nbsp;습관 형성<br>
+                                   
+                                6. 주도적인 학습 습관 형성
+                            </span>
+                        </div>
+                    </section>
+                    <section class="modal-footer">
+                        <img src="/sungchan/window.png" alt="">
+                        <img src="/sungchan/돋보기2.png" alt="">
+                        <img src="/sungchan/크롬아이콘.png" alt="">
+                        <img src="/sungchan/vsCode.png" alt="">
+                        <img src="/sungchan/카카오톡.png" alt="">
+                    </section>
+                </div>
+            </div>
+            
+            <!-- 4번째 모달 -->
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <section class="modal-head">
+                        <div id="modal-head-address">
+                            <img src="/sungchan/돋보기.png" alt="">  |
+                            <span>http:// www.지속적인 Strudy (프로그래머스, 스터디 모임,원티드 프론트엔드 챌린지).com</span> 
+                        </div>
+                    </section>
+                    <section class="modal-body">
+                        <div id="popUp-2">
+                            <div id="head">
+                                <span>Algorithm</span>
+                                <span>&times;</span>
+                            </div>
+                            <div class="study">
+                                <div class="studyImage">
+                                    <img src="/sungchan/프로그래머스.png" alt="">
+                                    <h3>Programmers</h3>
+                                    <span>
+                                        - <a href="https://www.notion.so/660eb888ab7e45c881e6de9fffb684fa">관련 풀이 상세보기</a><br>
+                                        &nbsp;&nbsp;&nbsp;- SQL, Java 기초 문제<br>
+                                        &nbsp;&nbsp;&nbsp;- Java, Oracle을 활용한 문제 해결 능력 향상<br>
+                                        &nbsp;&nbsp;&nbsp;- 알고리즘 사고지식 함양<br>
+                                    </span>
+                                    <h3>BackJoon</h3>
+                                    <span>
+                                        - 정렬(버블, 삽입, 힙 등) 문제 풀이<br>
+                                        &nbsp;&nbsp;&nbsp;- 알고리즘의 기초 지식 공부<br>
+                                        &nbsp;&nbsp;&nbsp;- 알고리즘 설계 및 분석을 통한 효율적인 설계 방법 고민<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="popUp-2">
+                            <div id="head">
+                                <span>Daliy Review</span>
+                                <span>&times;</span>
+                            </div>
+                            <div class="study">
+                                <div class="studyImage">
+                                    <img src="/sungchan/DailyReveiw.png" alt="">
+                                    <h3>매일 복습하기!</h3>
+                                    <span>
+                                        - <a href="https://www.notion.so/be15de3d71744601aed4dc8afc32b806?v=d252ab0c485146e7ac84d35756ac02fb">매일 복습 상세보기</a><br>
+                                        &nbsp;&nbsp;&nbsp;- 학원 이후 매일 6시부터 10시까지 복습 진행<br>
+                                        &nbsp;&nbsp;&nbsp;- 10번 이상에 걸친 시험 준비 및 진행<br>
+                                        &nbsp;&nbsp;&nbsp;- 당일 배운 것은 당일 복습<br>
+                                        &nbsp;&nbsp;&nbsp;- 노션을 블로그처럼 다양한 공부 내용 기록<br>
+                                    </span>
+                                    <h3>다양한 강의 활용</h3>
+                                    <span>
+                                        - 인프런 (Java 기초) <br>
+                                        &nbsp;&nbsp;&nbsp;- 노마더 코드 (HTML, CSS)<br>
+                                        &nbsp;&nbsp;&nbsp;- 생활코딩<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="popUp-2">
+                            <div id="head">
+                                <span>Study</span>
+                                <span>&times;</span>
+                            </div>
+                            <div class="study">
+                                <div class="studyImage">
+                                    <img src="/sungchan/Study.jpg" alt="">
+                                    <h3>Study모임</h3>
+                                    <span>
+                                        - 프로젝트 코드 리뷰, 알고리즘 풀이<br>
+                                        &nbsp;&nbsp;&nbsp;- 새로운 프로젝트 기획 중<br>
+                                        &nbsp;&nbsp;&nbsp;- 취업준비를 위한 모의 면접 진행<br>
+                                    </span>
+                                    <h3>원티드 챌린지</h3>
+                                    <span>
+                                        - 취업사이트 원티드에서 진행하는 프론트엔드 챌린지 진행<br>
+                                        &nbsp;&nbsp;&nbsp;- 4회(회당 3H)에 걸쳐 강의와 질의응답 진행<br>
+                                        &nbsp;&nbsp;&nbsp;- 강의는 어려웠지만 실무를 간접적으로 경험<br>
+                                        &nbsp;&nbsp;&nbsp;- 질의응답을 통해 강사와 300명의 객관적인 의견 취합<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="modal-footer">
+                        <img src="/sungchan/window.png" alt="">
+                        <img src="/sungchan/돋보기2.png" alt="">
+                        <img src="/sungchan/크롬아이콘.png" alt="">
+                        <img src="/sungchan/vsCode.png" alt="">
+                        <img src="/sungchan/카카오톡.png" alt="">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/sungchan/Sungchan.js"></script>
+
+
+</body>
+</html>

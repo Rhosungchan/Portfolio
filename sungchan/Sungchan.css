@@ -1,0 +1,899 @@
+@media print {
+
+    /* body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,body{
+        width: 210mm;
+        height: 297mm;
+    } */
+    * {
+        box-sizing: border-box;
+    }
+
+    header,
+    footer {
+        display: none;
+    }
+
+    main {
+        width: 1000px;
+        height: 1450px;
+        display: flex;
+    }
+
+    /* ======[ 왼쪽 타이틀 영역 ]======[ */
+    #leftSide {
+        background-color: #1e4c84;
+        width: 280px;
+        height: 1450px;
+    }
+
+    #left {
+        background-color: #1e4c84;
+        width: 70px;
+        height: 1450px;
+    }
+
+    /* 왼쪽 제목/소제목 */
+    .menu {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .subMenu {
+        color: rgba(248, 248, 255, 0.482);
+        font-size: 18px;
+    }
+
+    /* ======[ 오늘쪽 타이틀 영역 ]======[ */
+    #right {
+        width: 50px;
+        height: 1450px;
+
+    }
+
+    #rightSide {
+        width: 780px;
+        height: 1450px;
+    }
+
+    /* 오른쪽 로고 */
+    #logoImage {
+        width: 150px;
+    }
+
+    /* 오른쪽 메인 제목 */
+    #info {
+        font-size: 30px;
+        margin: 0px 0;
+        color: #1e4c84;
+    }
+
+    #name {
+        font-size: 50px;
+        margin-top: 10px;
+        color: #1e4c84;
+    }
+
+    /* 접속시간 */
+    #enterTime {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #time {
+        text-align: end;
+        font-size: 20px;
+        color: rgba(36, 35, 35, 0.849);
+    }
+
+
+
+    /* 메인 Content 영역 */
+    .firstBox {
+        /* height: 330px; */
+        height: 310px;
+        display: flexbox;
+        border-bottom: 2px solid rgba(175, 183, 211, 0.413);
+    }
+
+    /* =========[ 프로필 이미지 ]=========*/
+    #profile {
+        height: 235px;
+        width: 208px;
+        background-color: white;
+        border-radius: 50%;
+        border: 4px solid white;
+    }
+
+    #profileImage {
+        height: 230px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    /* 프로필 공백 */
+    #area {
+        height: 50px;
+    }
+
+    /* ------------------------------------- */
+
+    #box {
+        border-bottom: 2px solid rgba(175, 183, 211, 0.413);
+        padding-top: 10px;
+    }
+
+    /* 자기소개 영역 */
+    .introudceBox {
+        height: 230px;
+    }
+
+    /* 자기소개 내용 */
+    .introudceBox>h4 {
+        font-size: 15px;
+        margin-top: 0;
+        color: rgba(56, 54, 54, 0.849);
+    }
+
+    /* 자기소개 내용 */
+    #infoDevelor {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(129, 126, 126);
+    }
+
+    /* 기술사항 영역 */
+    .stackBox {
+        height: 180px;
+    }
+
+    /* 기술사항 내용 중 제목 */
+    .stack {
+        font-size: 18px;
+        padding-bottom: 40px;
+        text-align: start;
+        text-decoration: underline;
+        font-weight: bold;
+        color: rgba(56, 54, 54, 0.849);
+    }
+
+    td {
+        font-size: 15px;
+        color: rgb(75, 74, 74);
+    }
+
+
+    /* 사회경험 영역 */
+    .experienceBox {
+        height: 150px;
+    }
+
+    /* 사회경험 내용 */
+    .experience {
+        text-align: left;
+        letter-spacing: 2px;
+        font-size: 20px;
+        color: rgba(36, 35, 35, 0.849);
+    }
+
+    /* 사회경험 기간 */
+    .period {
+        font-size: 18px;
+        text-align: right;
+        font-weight: bold;
+        color: rgba(36, 35, 35, 0.849);
+    }
+
+    /* 사회경험 상세 내용 */
+    #explanation {
+        font-size: 15px;
+        color: rgba(126, 120, 120, 0.849);
+    }
+
+    /* 학력 영역 */
+    .educationBox {
+        height: 100px;
+    }
+
+    /* 교육 영역 */
+    .studyBox {
+        height: 380px;
+    }
+
+    /* contact 영역 */
+    .contactBox {
+        height: 100px;
+    }
+
+    /* study 내용 */
+    #studyContent {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(129, 126, 126);
+        line-height: 1.5;
+    }
+
+    /* 팀프로젝트 제목 */
+    .project {
+        height: 38px;
+        width: 120px;
+        background-color: #3a71b4;
+        border-radius: 5px;
+        padding-top: 7px;
+    }
+
+    .project>a {
+        font-size: 15px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .project>a:hover {
+        font-size: 17px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .contactBox {
+        display: flex;
+    }
+
+    .contactContent {
+        width: 150px;
+        text-align: center;
+    }
+
+    .contactContent>img {
+        width: 50px;
+        height: 50px;
+        color: black;
+    }
+
+    .contactContent>a {
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+    }
+
+    .contactContent>a:hover {
+        color: #1e4c84;
+    }
+
+    .contactContent>span {
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .contactContent>span:hover {
+        color: #1e4c84;
+    }
+}
+
+/* -------------------------------------- */
+
+
+
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 1000px;
+    height: 1450px;
+    display: flex;
+    background-color: #fefefe;
+}
+
+/* ======[ 왼쪽 타이틀 영역 ]======[ */
+#leftSide {
+    background-color: #1e4c84;
+    width: 280px;
+    height: 1450px;
+}
+
+#left {
+    background-color: #1e4c84;
+    width: 70px;
+    height: 1450px;
+}
+
+/* 왼쪽 제목/소제목 */
+.menu {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.subMenu {
+    color: rgba(248, 248, 255, 0.482);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/* ======[ 오늘쪽 타이틀 영역 ]======[ */
+#right {
+    width: 50px;
+    height: 1450px;
+
+}
+
+#rightSide {
+    width: 780px;
+    height: 1450px;
+}
+
+/* 오른쪽 로고 */
+#logoImage {
+    width: 150px;
+}
+
+/* 오른쪽 메인 제목 */
+#info {
+    font-size: 30px;
+    margin: 0px 0;
+    color: #1e4c84;
+}
+
+#name {
+    font-size: 50px;
+    margin-top: 10px;
+    color: #1e4c84;
+    font-family: sans-serif;
+}
+
+/* 접속시간 */
+#enterTime {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+#time {
+    text-align: end;
+    font-size: 20px;
+    color: rgba(36, 35, 35, 0.849);
+    font-family: sans-serif;
+}
+
+
+
+/* 메인 Content 영역 */
+.firstBox {
+    /* height: 330px; */
+    height: 310px;
+    display: flexbox;
+    border-bottom: 2px solid rgba(175, 183, 211, 0.413);
+}
+
+/* =========[ 프로필 이미지 ]=========*/
+#profile {
+    height: 235px;
+    width: 208px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+#profileImage {
+    height: 230px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* 프로필 공백 */
+#area {
+    height: 50px;
+}
+
+/* ------------------------------------- */
+
+#box {
+    border-bottom: 2px solid rgba(175, 183, 211, 0.413);
+    padding-top: 10px;
+}
+
+/* 자기소개 영역 */
+.introudceBox {
+    height: 230px;
+}
+
+/* 자기소개 내용 */
+.introudceBox>h4 {
+    font-size: 15px;
+    margin-top: 0;
+    color: rgba(56, 54, 54, 0.849);
+    font-family: sans-serif;
+}
+
+/* 자기소개 내용 */
+#infoDevelor {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(129, 126, 126);
+    font-family: sans-serif;
+}
+
+/* 기술사항 영역 */
+.stackBox {
+    height: 180px;
+}
+
+/* 기술사항 내용 중 제목 */
+.stack {
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-align: start;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgba(56, 54, 54, 0.849);
+    font-family: sans-serif;
+}
+
+td {
+    font-size: 15px;
+    color: rgb(75, 74, 74);
+    font-family: sans-serif;
+}
+
+
+/* 사회경험 영역 */
+.experienceBox {
+    height: 150px;
+}
+
+/* 사회경험 내용 */
+.experience {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgba(36, 35, 35, 0.849);
+    font-family: sans-serif;
+}
+
+/* 사회경험 기간 */
+.period {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    color: rgba(36, 35, 35, 0.849);
+    font-family: sans-serif;
+}
+
+/* 사회경험 상세 내용 */
+#explanation {
+    font-size: 15px;
+    color: rgba(126, 120, 120, 0.849);
+    font-family: sans-serif;
+}
+
+/* 학력 영역 */
+.educationBox {
+    height: 100px;
+}
+
+/* 교육 영역 */
+.studyBox {
+    height: 380px;
+}
+
+/* contact 영역 */
+.contactBox {
+    height: 100px;
+}
+
+/* study 내용 */
+#studyContent {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(129, 126, 126);
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* 팀프로젝트 제목 */
+.project {
+    height: 38px;
+    width: 120px;
+    background-color: #3a71b4;
+    border-radius: 5px;
+    padding-top: 7px;
+    font-family: sans-serif;
+}
+
+.project>a {
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.project>a:hover {
+    font-size: 17px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.contactBox {
+    display: flex;
+}
+
+.contactContent {
+    width: 150px;
+    text-align: center;
+}
+
+.contactContent>img {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+.contactContent>a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+}
+
+.contactContent>a:hover {
+    color: #1e4c84;
+    font-family: sans-serif;
+}
+
+.contactContent>span {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+}
+
+.contactContent>span:hover {
+    color: #1e4c84;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+/* 4/16 이후 */
+/* 모달창으로 */
+
+/* 56516515555555555555555555 */
+.modal-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-btn {
+    width: 60px;
+    background-color: white;
+    height: 0px;
+    color: rgb(99, 97, 97);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.modal-btn:hover {
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+    background-color: #3a71b4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 3px;
+    border: 1px solid #888;
+    width: 1500px;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+.modal-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    padding-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 56516515555555555555555555 */
+
+
+
+/* 모달 모형 */
+.modal-head {
+    width: 1490px;
+    height: 100px;
+    background-color: #1e4c84;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.modal-body {
+    display: flex;
+    padding: 50px;
+    height: 830px;
+}
+
+.modal-footer {
+    width: 1490px;
+    height: 60px;
+    background-color: #1e4c84;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal-footer>img {
+    margin: 15px;
+    width: 30px;
+}
+
+#modal-head-address {
+    width: 1000px;
+    height: 50px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+#modal-head-address>img {
+    width: 18px;
+    height: 18px;
+}
+
+#modal-head_address>span {
+    color: #4d4c4c;
+    font-family: sans-serif;
+}
+
+/* 홈페이지 설계 모달 */
+#homePageContent {
+    width: 670px;
+    margin: 50px auto;
+    height: 500px;
+    background-color: rgb(221, 220, 217);
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+#homePageContent>h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#homePageContent>h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+#homePageContent>span {
+    font-size: 15px;
+    color: #363636;
+    font-weight: bold;
+    line-height: 1.8;
+    font-family: sans-serif;
+}
+#popUp-1{
+    width: 900px;
+    height: 500px;
+    border: 3px solid #1e4c84;
+    border-radius: 5px;
+    background-image: url(/sungchan/서울잇다푸드뱅크.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #1e4c84;
+    font-size: 30px;
+    color: #fefefe;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 900px;
+    height: 500px; 
+    border-radius: 5px;
+}
+.image-grid>div{
+    margin: 5px;
+    width: 280px; 
+    height: 200px; 
+}
+.picture {
+    width: 100%;
+    height: 100%;
+}
+.imageinfo{
+    text-align: center;
+    font-size: 12px;
+}
+#popUp{
+    width: 900px;
+    height: 570px;
+    border: 3px solid #1e4c84;
+    border-radius: 5px;
+    margin: 30px;
+}
+#eventContent{
+    width: 650px;
+    margin: 30px auto;
+    height: 570px;
+    background-color: rgb(221, 220, 217);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#eventContent>h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#eventContent>h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+#eventContent>span {
+    font-size: 14.1px;
+    color: #363636;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+
+/* 세번째 모달 */
+#popUp-2{
+    width: 1000px;
+    height: 700px;
+    border: 3px solid #1e4c84;
+    border-radius: 5px;
+    margin: 10px;
+}
+#project{
+    display: flex;
+}
+.projectImage > img{
+    width: 470px;
+    height: 280px;
+    border: #363636 1px solid;
+    border-radius: 5px;
+}
+.projectImage{
+    text-align: center;
+    width: 48%;
+    height: 620px;
+    margin: 10px;
+}
+.projectTable{
+    border-collapse: collapse;
+    border-top: #363636 2px solid;
+}
+.th,.td{
+    border-top: #d5d5d8 1px solid;
+    border-bottom: #d5d5d8 1px solid;
+    color: #5e5d5d;
+}
+a{
+    text-decoration: none;
+    color: #4d4c4c;
+    font-family: sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: #1e4c84;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#educationContent{
+    width: 650px;
+    height: 700px;
+    margin-top: 10px;
+    background-color: rgb(221, 220, 217);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+#educationContent>h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#educationContent>h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+#educationContent>span {
+    font-size: 15px;
+    color: #363636;
+    font-weight: bold;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+/* 마지막 모달 */
+.studyImage > img{
+    width: 420px;
+    margin: 10px;
+    height: 280px;
+    border-radius: 5px;
+    border: #1e4c84 1px solid;
+}
+.studyImage > img:hover{
+    transform: scale(2.8);
+    z-index: 1;
+}
+
+.studyImage > h3{
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.studyImage > span{
+    margin-left: 14px;
+    color: #5e5d5d;
+    font-weight: bold;
+    font-family: sans-serif;
+}
